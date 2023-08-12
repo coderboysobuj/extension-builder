@@ -1,10 +1,9 @@
 {
   "homepage": "https://github.com/coderboysobuj/extension-builder/README.md",
-  "name": "my-webpack-project",
+  "name": "cross-platform-web-extension-builder",
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "🚀 Cross Platform web extension/plugin builder",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "dev": "npm run dev:chromium",
     "dev:chromium": "BUILD_TARGET=chromium webpack --watch",
@@ -19,8 +18,14 @@
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
-  "keywords": [],
-  "author": "Jisan",
+  "keywords": [
+    "extension builder",
+    "cross platform extension",
+    "chrome extension builer",
+    "firefox extension builder",
+    "cross builder"
+  ],
+  "author": "Jisan | Sabbir",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.3",
