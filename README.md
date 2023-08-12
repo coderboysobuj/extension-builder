@@ -1,11 +1,12 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Cross Platform web extension/plugin builder
 
 This project has been created using **webpack-cli**, you can now run
 
 ```
 npm install
 ```
-and 
+
+and
 
 ```
 npm run build
