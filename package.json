@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run dev:chromium",
-    "dev:chromium": "BUILD_TARGET=chromium webpack --watch",
+    "dev:chromium": "BUILD_TARGET=chromium webpack --watch --mode=development",
     "dev:firefox": "BUILD_TARGET=firefox webpack --watch",
     "build:web": "NODE_ENV=production BUILD_TARGET=web webpack",
     "build:chromium": "NODE_ENV=production BUILD_TARGET=chromium webpack",
