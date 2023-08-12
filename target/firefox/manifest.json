@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Overrider",
+  "short_name": "Override",
+  "version": "0.0.1",
+  "description": "A awesome tab overrider extension",
+  "applications": {
+    "gecko": {
+      "id": "extension@tab-overrider.io",
+      "strict_min_version": "54.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "homepage": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "32": "icons/icon.png",
+    "48": "icons/icon.png",
+    "96": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
