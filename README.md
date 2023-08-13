@@ -16,7 +16,11 @@
 **If you are a bangladeshi**
 
 Support in **Bkash | Nagad | Upay**
-
+(Recommanded)
 ```console
 01642562603
+```
+OR
+```console
+01894079949
 ```
