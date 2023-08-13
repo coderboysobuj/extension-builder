@@ -1,4 +1,3 @@
-
 require('dotenv/config');
 
 const path = require('path');
@@ -6,22 +5,19 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const workbox = require('workbox-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-
-const isProduction = process.env.NODE_ENV == 'production';
+const stylesHandler = 'style-loader';
 const version = require('./package.json').version;
 
-
-const stylesHandler = 'style-loader';
-
 const buildTarget = process.env.BUILD_TARGET || 'web';
-
+const isProduction = process.env.NODE_ENV == 'production';
 const isWeb = buildTarget === "web";
-
 
 const config = {
   entry: {
     polyfills: './src/polyfills.ts',
     main: ["./src/global.css", "./src/main.tsx"],
+    contentScript: "./src/contentScript/content.ts",
+    backgroundScript: "./src/backgroundScript/background.ts"
   },
   output: {
     path: path.resolve(__dirname, "dist", buildTarget),
