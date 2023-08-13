@@ -1,25 +1,16 @@
 # 🚀 Cross Platform web extension/plugin builder
 
-This project has been created using **webpack-cli**, you can now run
+#
 
-```
-npm install
-```
+**Designed By** [Coder Boy Sobuj](https://coderboysobuj.github.io/)
+[Developer Sabbir]("https://www.showwcase.com/devlopersabbir")
 
-and
+### For Support
 
-```
-npm run build
-```
+[Buy Me a Coffee]("https://www.buymeacoffee.com/devlopersabbir")
 
-or
+**If you are a bangladeshi**<br> Support in **Bkash | Nagad | Upay**
 
+```console
+01642562603
 ```
-yarn build
-```
-
-```
-pnpm build
-```
-
-to bundle your application
