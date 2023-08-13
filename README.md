@@ -13,14 +13,14 @@
 
 [Buy Me a Coffee]("https://www.buymeacoffee.com/devlopersabbir")
 
-**If you are a bangladeshi**
+**If you are a Bangladeshi**
 
 Support in **Bkash | Nagad | Upay**
-(Recommanded)
+(Recommended)
 ```console
 01642562603
 ```
-OR
+Optional
 ```console
 01894079949
 ```
